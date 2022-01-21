@@ -1,0 +1,25 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "editorconfig-checker",
+    "start": "browser-sync start --server --no-ui --no-notify --startPath \"source\" --watch \"*.html, *.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsem73/landing.git"
+  },
+  "keywords": [],
+  "author": "sqa73",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsem73/landing/issues"
+  },
+  "homepage": "https://github.com/gsem73/landing#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "editorconfig-checker": "^4.0.2"
+  }
+}
